@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'OfficinaSansITCPro Book';
-    src: url('OfficinaSansITCPro-Book.ttf') format('truetype');
+    src: url('./fonts/OfficinaSansITCPro-Book.woff2') format('woff2'),
+        url('./fonts/OfficinaSansITCPro-Book.woff') format('woff'),
+        url('./fonts/OfficinaSansITCPro-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,8 +10,60 @@
 
 @font-face {
     font-family: 'OfficinaSansITCPro';
-    src: url('OfficinaSansITCPro-Medium.ttf') format('truetype');
+    src: url('./fonts/OfficinaSansITCPro-Medium.woff2') format('woff2'),
+        url('./fonts/OfficinaSansITCPro-Medium.woff') format('woff'),
+        url('./fonts/OfficinaSansITCPro-Medium.ttf') format('truetype');
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    src: url('./fonts/FontAwesome5Brands-Regular.woff2') format('woff2'),
+        url('./fonts/FontAwesome5Brands-Regular.woff') format('woff'),
+        url('./fonts/FontAwesome5Brands-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro';
+    src: url('./fonts/FontAwesome5Pro-Regular.woff2') format('woff2'),
+        url('./fonts/FontAwesome5Pro-Regular.woff') format('woff'),
+        url('./fonts/FontAwesome5Pro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro Solid';
+    src: url('./fonts/FontAwesome5Pro-Solid.woff2') format('woff2'),
+        url('./fonts/FontAwesome5Pro-Solid.woff') format('woff'),
+        url('./fonts/FontAwesome5Pro-Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Duotone Solid';
+    src: url('./fonts/FontAwesome5Duotone-Solid.woff2') format('woff2'),
+        url('./fonts/FontAwesome5Duotone-Solid.woff') format('woff'),
+        url('./fonts/FontAwesome5Duotone-Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro';
+    src: url('./fonts/FontAwesome5Pro-Light.woff2') format('woff2'),
+        url('./fonts/FontAwesome5Pro-Light.woff') format('woff'),
+        url('./fonts/FontAwesome5Pro-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }

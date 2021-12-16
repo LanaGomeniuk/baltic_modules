@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'OfficinaSansITCPro Book';
-  src: url("OfficinaSansITCPro-Book.ttf") format("truetype");
+  src: url("./fonts/OfficinaSansITCPro-Book.woff2") format("woff2"), url("./fonts/OfficinaSansITCPro-Book.woff") format("woff"), url("./fonts/OfficinaSansITCPro-Book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,8 +8,48 @@
 
 @font-face {
   font-family: 'OfficinaSansITCPro';
-  src: url("OfficinaSansITCPro-Medium.ttf") format("truetype");
+  src: url("./fonts/OfficinaSansITCPro-Medium.woff2") format("woff2"), url("./fonts/OfficinaSansITCPro-Medium.woff") format("woff"), url("./fonts/OfficinaSansITCPro-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  src: url("./fonts/FontAwesome5Brands-Regular.woff2") format("woff2"), url("./fonts/FontAwesome5Brands-Regular.woff") format("woff"), url("./fonts/FontAwesome5Brands-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  src: url("./fonts/FontAwesome5Pro-Regular.woff2") format("woff2"), url("./fonts/FontAwesome5Pro-Regular.woff") format("woff"), url("./fonts/FontAwesome5Pro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Pro Solid';
+  src: url("./fonts/FontAwesome5Pro-Solid.woff2") format("woff2"), url("./fonts/FontAwesome5Pro-Solid.woff") format("woff"), url("./fonts/FontAwesome5Pro-Solid.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Duotone Solid';
+  src: url("./fonts/FontAwesome5Duotone-Solid.woff2") format("woff2"), url("./fonts/FontAwesome5Duotone-Solid.woff") format("woff"), url("./fonts/FontAwesome5Duotone-Solid.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  src: url("./fonts/FontAwesome5Pro-Light.woff2") format("woff2"), url("./fonts/FontAwesome5Pro-Light.woff") format("woff"), url("./fonts/FontAwesome5Pro-Light.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -43,6 +83,7 @@ h1 {
   font-size: 60px;
   line-height: 66px;
   font-weight: normal;
+  font-family: 'OfficinaSansITCPro';
 }
 
 p {
@@ -61,6 +102,12 @@ ul {
   list-style: none;
 }
 
+.container {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .btn {
   border: 2px solid #00A6CC;
   border-radius: 4px;
@@ -77,26 +124,19 @@ ul {
 
 .header {
   width: 100%;
-  margin: 0 auto;
-}
-
-.header-wrapper {
-  position: fixed;
+  padding: 20px 0;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
   background-color: #ffffff;
   z-index: 99;
 }
 
 .header-container {
-  margin: 0 auto;
-  max-width: 1290px;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -128,12 +168,7 @@ ul {
   color: #00A6CC;
 }
 
-.header-lang-wrapper {
-  position: relative;
-}
-
 .header-language {
-  position: absolute;
   background-image: url(../images/globe.svg);
   background-repeat: no-repeat;
   background-position-y: center;
@@ -154,7 +189,7 @@ ul {
   background-image: url(../images/message-icon_white.svg);
 }
 
-.header-hero {
+.hero {
   background: url(../images/hero-img.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,31 +197,28 @@ ul {
   color: #ffffff;
 }
 
-.header-hero-container {
+.hero-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
-  max-width: 1290px;
-  margin: 0 auto;
 }
 
-.header-hero-title {
+.hero-title {
   max-width: 368px;
 }
 
-.header-hero-title h1 {
+.hero-title h1 {
   margin-bottom: 13px;
 }
 
-.header-hero-title p {
+.hero-title p {
   font-size: 30px;
 }
 
-.header-hero-list {
+.hero-list {
   max-width: 620px;
   width: 100%;
   display: -webkit-box;
@@ -197,36 +229,36 @@ ul {
           justify-content: space-between;
 }
 
-.header-hero-list-item1 {
+.hero-list-item1 {
   background-image: url(../images/key-icon.svg);
 }
 
-.header-hero-list-item2 {
+.hero-list-item2 {
   background-image: url(../images/calc-icon.svg);
 }
 
-.header-hero-list-item3 {
+.hero-list-item3 {
   background-image: url(../images/target-icon.svg);
 }
 
-.header-hero-list li {
+.hero-list li {
   font-weight: 400;
   padding-top: 65px;
   max-width: 180px;
   background-repeat: no-repeat;
 }
 
-.header-hero-video-container {
+.hero-video-container {
   position: relative;
   margin-bottom: 20px;
   cursor: pointer;
 }
 
-.header-hero-video-container:hover .header-hero-video-button {
+.hero-video-container:hover .hero-video-button {
   background-image: url(../images/play-button_blue.svg);
 }
 
-.header-hero-video-button {
+.hero-video-button {
   position: absolute;
   background-image: url(../images/play-icon.svg);
   background-repeat: no-repeat;
@@ -236,6 +268,6 @@ ul {
   top: 34px;
 }
 
-.header-hero-video a {
+.hero-video a {
   color: #ffffff;
 }
