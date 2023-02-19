@@ -27,15 +27,15 @@
     display: flex;
     justify-content: space-between;
     &-item1 {
-      background-image: url(../images/key-icon.svg);
+      background-image: url(./images/key-icon.svg);
     }
 
     &-item2 {
-      background-image: url(../images/calc-icon.svg);
+      background-image: url(./images/calc-icon.svg);
     }
 
     &-item3 {
-      background-image: url(../images/target-icon.svg);
+      background-image: url(./images/target-icon.svg);
     }
   }
 
@@ -53,12 +53,12 @@
   }
 
   &-video-container:hover &-video-button {
-    background-image: url(../images/play-button_blue.svg);
+    background-image: url(./images/play-button_blue.svg);
   }
 
   &-video-button {
     position: absolute;
-    background-image: url(../images/play-icon.svg);
+    background-image: url(./images/play-icon.svg);
     background-repeat: no-repeat;
     width: 50px;
     height: 56px;

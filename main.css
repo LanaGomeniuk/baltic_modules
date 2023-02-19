@@ -231,15 +231,15 @@ ul {
 }
 
 .hero-list-item1 {
-  background-image: url(../images/key-icon.svg);
+  background-image: url(./images/key-icon.svg);
 }
 
 .hero-list-item2 {
-  background-image: url(../images/calc-icon.svg);
+  background-image: url(./images/calc-icon.svg);
 }
 
 .hero-list-item3 {
-  background-image: url(../images/target-icon.svg);
+  background-image: url(./images/target-icon.svg);
 }
 
 .hero-list li {
@@ -256,12 +256,12 @@ ul {
 }
 
 .hero-video-container:hover .hero-video-button {
-  background-image: url(../images/play-button_blue.svg);
+  background-image: url(./images/play-button_blue.svg);
 }
 
 .hero-video-button {
   position: absolute;
-  background-image: url(../images/play-icon.svg);
+  background-image: url(./images/play-icon.svg);
   background-repeat: no-repeat;
   width: 50px;
   height: 56px;
