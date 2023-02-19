@@ -1,0 +1,95 @@
+.products {
+    &-title {
+        margin-bottom: 40px;
+    }
+
+    &-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-section:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    &-card {
+        width: 100%;
+        max-width: 635px;
+        padding: 15px;
+    }
+
+    &-card:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        transition: all 0.5s ease-in;
+    }
+
+    &-img-container {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    &-img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    &-price {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $white-color;
+        font-size: 16px;
+        padding-right: 8px;
+    }
+
+    &-info-container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    &-text {
+        max-width: 480px;
+        width: 100%;
+    }
+
+    &-text2 {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    &-info-title {
+        margin-bottom: 5px;
+    }
+
+    &-info-text {
+        color: $text-gray;
+    }
+
+    &-vertical {
+        border-left: 1px solid #DDDDDD;
+        height: 78px;
+        position: absolute;
+        left: 80%;
+    }
+
+    &-info-size {
+        font-size: 30px;
+        width: 100%;
+        max-width: 95px;
+    }
+
+    &-info-size span {
+        font-size: 16px;
+    }
+
+    &-vertical2 {
+        border-left: 1px solid #DDDDDD;
+        height: 107px;
+        position: absolute;
+        left: 68%;
+    }
+
+}
