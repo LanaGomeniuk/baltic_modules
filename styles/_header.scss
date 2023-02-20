@@ -30,7 +30,7 @@
   }
 
   &-language {
-    background-image: url(../images/globe.svg);
+    background-image: url(./images/globe.svg);
     background-repeat: no-repeat;
     background-position-y: center;
     top: -10px;
@@ -40,13 +40,13 @@
   }
 
   &-btn {
-    background-image: url(../images/message.svg);
+    background-image: url(./images/message.svg);
     background-repeat: no-repeat;
     padding: 10px 25px 10px 35px;
     background-position-y: center;
   }
 
   &-btn:hover {
-    background-image: url(../images/message-icon_white.svg);
+    background-image: url(./images/message-icon_white.svg);
   }
 }

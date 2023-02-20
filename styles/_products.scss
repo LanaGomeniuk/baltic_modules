@@ -12,9 +12,10 @@
         margin-bottom: 50px;
     }
 
+                &-section2 {
+                    margin-bottom: 60px;
+                }
     &-card {
-        width: 100%;
-        max-width: 635px;
         padding: 15px;
     }
 
@@ -89,7 +90,7 @@
         border-left: 1px solid #DDDDDD;
         height: 107px;
         position: absolute;
-        left: 68%;
-    }
+        left: 70%;
+        }
 
 }

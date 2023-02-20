@@ -114,6 +114,7 @@ ul {
   background-color: #ffffff;
   font-weight: bold;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .btn:hover {
@@ -169,7 +170,7 @@ ul {
 }
 
 .header-language {
-  background-image: url(../images/globe.svg);
+  background-image: url(./images/globe.svg);
   background-repeat: no-repeat;
   background-position-y: center;
   top: -10px;
@@ -179,14 +180,14 @@ ul {
 }
 
 .header-btn {
-  background-image: url(../images/message.svg);
+  background-image: url(./images/message.svg);
   background-repeat: no-repeat;
   padding: 10px 25px 10px 35px;
   background-position-y: center;
 }
 
 .header-btn:hover {
-  background-image: url(../images/message-icon_white.svg);
+  background-image: url(./images/message-icon_white.svg);
 }
 
 .hero {
@@ -290,9 +291,11 @@ ul {
   margin-bottom: 50px;
 }
 
+.products-section2 {
+  margin-bottom: 60px;
+}
+
 .products-card {
-  width: 100%;
-  max-width: 635px;
   padding: 15px;
 }
 
@@ -374,5 +377,94 @@ ul {
   border-left: 1px solid #DDDDDD;
   height: 107px;
   position: absolute;
-  left: 68%;
+  left: 70%;
+}
+
+.project {
+  padding-top: 60px;
+}
+
+.project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1530px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 100px 40px 30px 120px;
+}
+
+.project-information {
+  width: 50%;
+}
+
+.project-title {
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.project-info {
+  margin-bottom: 40px;
+}
+
+.project-button-container {
+  width: 100%;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-btn {
+  width: 100%;
+  max-width: 220px;
+  background-image: url(./images/msg.svg);
+  background-repeat: no-repeat;
+  padding: 15px 25px;
+  background-position-y: center;
+  background-color: #00A6CC;
+  color: #ffffff;
+  font-size: 20px;
+  border: transparent;
+}
+
+.project-galery {
+  width: 100%;
+  max-width: 220px;
+  background-image: url(./images/photo.svg);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+  border: transparent;
+  font-size: 20px;
+  padding: 10px 25px 10px 35px;
+}
+
+.project-galery:hover {
+  background-color: transparent;
+  color: #00A6CC;
+}
+
+.project-img {
+  position: relative;
+  background: url(./images/blueprint.svg) center bottom no-repeat;
+  width: 60%;
+}
+
+.project-house-img {
+  position: absolute;
+  height: 495px;
+  width: 100%;
+  max-width: 582px;
+  background-image: url(./images/house-plan.png);
+  top: -32%;
+  left: 10%;
+  background-repeat: no-repeat;
 }

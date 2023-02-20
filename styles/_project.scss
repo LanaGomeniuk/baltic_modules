@@ -1,0 +1,82 @@
+.project {
+    padding-top: 60px;
+
+    &-container {
+        display: flex;
+        max-width: 1530px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: $bgc-grey;
+        padding: 100px 40px 30px 120px;
+    }
+
+    &-information {
+        width: 50%;
+    }
+
+    &-title {
+        margin-bottom: 40px;
+        width: 50%;
+    }
+
+    &-info {
+        margin-bottom: 40px;
+    }
+
+    &-button-container {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-btn {
+        width: 100%;
+        max-width: 220px;
+        background-image: url(./images/msg.svg);
+        background-repeat: no-repeat;
+        padding: 15px 25px;
+        background-position-y: center;
+        background-color: $tukis-color;
+        color: $white-color;
+        font-size: 20px;
+        border: transparent;
+    }
+
+    &-galery {
+        width: 100%;
+        max-width: 220px;
+        background-image: url(./images/photo.svg);
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-color: $bgc-grey;
+        border: transparent;
+        font-size: 20px;
+        padding: 10px 25px 10px 35px;
+    }
+
+    &-galery:hover {
+        background-color: transparent;
+        color: $tukis-color;
+    }
+
+    &-img {
+        position: relative;
+        background: url(./images/blueprint.svg) center bottom no-repeat;
+        // background-repeat: no-repeat;
+        // background-position: center;
+        width: 60%;
+    }
+
+    &-house-img {
+        position: absolute;
+        height: 495px;
+        width: 100%;
+        max-width: 582px;
+        background-image: url(./images/house-plan.png);
+        top: -32%;
+        left: 10%;
+        background-repeat: no-repeat;
+    }
+}
