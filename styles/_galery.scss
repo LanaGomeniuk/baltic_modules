@@ -1,0 +1,128 @@
+.galery {
+    padding: 120px 0px 120px 0px;
+
+    &-title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    &-title {
+        margin-bottom: 40px;
+    }
+
+    &-checkbox {
+        display: flex;
+        justify-content: space-between;
+
+        // width: 100%;
+        // max-width: 444px;
+        &-title {
+            margin-right: 20px;
+        }
+    }
+
+    &-checked {
+        margin-right: 20px;
+    }
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+
+        &-item {
+            width: 100%;
+            max-width: 300px;
+            height: 300px;
+            position: relative;
+            margin-bottom: 30px;
+            padding-top: 215px;
+            padding-left: 20px;
+        }
+
+        &-item:hover {
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            transition: all 0.5s ease-in;
+            cursor: pointer;
+        }
+
+        &-item h5 {
+            background-color: $white-color;
+            position: absolute;
+            padding-right: 8px;
+            font-size: 16px;
+            top: 0;
+            left: 0;
+        }
+
+        &-item p {
+            color: $white-color;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        &-item h3 {
+            color: $white-color;
+            font-weight: 500;
+            font-size: 30px;
+        }
+
+        &-img1 {
+            background-image: url(../images/project1.png);
+        }
+
+        &-img2 {
+            background-image: url(../images/project2.png);
+        }
+
+        &-img3 {
+            background-image: url(../images/project3.png);
+        }
+
+        &-img4 {
+            background-image: url(../images/project4.png);
+        }
+
+        &-img5 {
+            background-image: url(../images/project5.png);
+        }
+
+        &-img6 {
+            background-image: url(../images/project6.png);
+        }
+
+        &-img7 {
+            background-image: url(../images/project7.png);
+        }
+
+        &-img8 {
+            background-image: url(../images/project8.png);
+        }
+    }
+
+    &-btn {
+        position: relative;
+        padding: 20px 60px 20px 20px;
+    }
+
+    &-btn::after {
+        position: absolute;
+        content: '';
+        background-image: url(./images/arrow.svg);
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 20px;
+        height: 10px;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+
+    &-btn:hover {
+        color: $white-color;
+    }
+}
