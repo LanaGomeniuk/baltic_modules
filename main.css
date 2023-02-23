@@ -561,35 +561,35 @@ ul {
 }
 
 .galery-list-img1 {
-  background-image: url(../images/project1.png);
+  background-image: url(./images/project1.png);
 }
 
 .galery-list-img2 {
-  background-image: url(../images/project2.png);
+  background-image: url(./images/project2.png);
 }
 
 .galery-list-img3 {
-  background-image: url(../images/project3.png);
+  background-image: url(./images/project3.png);
 }
 
 .galery-list-img4 {
-  background-image: url(../images/project4.png);
+  background-image: url(./images/project4.png);
 }
 
 .galery-list-img5 {
-  background-image: url(../images/project5.png);
+  background-image: url(./images/project5.png);
 }
 
 .galery-list-img6 {
-  background-image: url(../images/project6.png);
+  background-image: url(./images/project6.png);
 }
 
 .galery-list-img7 {
-  background-image: url(../images/project7.png);
+  background-image: url(./images/project7.png);
 }
 
 .galery-list-img8 {
-  background-image: url(../images/project8.png);
+  background-image: url(./images/project8.png);
 }
 
 .galery-btn {
